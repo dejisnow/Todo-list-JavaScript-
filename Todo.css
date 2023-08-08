@@ -1,0 +1,116 @@
+body {
+background:linear-gradient(90deg,#eeedf2,#eedffe,#eedff2)
+    
+}
+.main{
+    
+    
+}
+.btn{
+    padding:0;
+    border:0;
+    border-radius:5px;
+}
+.container{
+    
+margin-top:10px;
+    display:grid;
+    grid-auto-flow:column;
+    
+    
+    
+    
+}
+.status{
+    margin:10px;
+}
+.status button{
+    margin:5px 2px;
+    padding:13px;
+    border:0;
+    border-radius:5px;
+    background-color:#eeefff;
+    
+}
+
+.newDiv{
+    display:flex;
+    flex-direction:column;
+    position:relative ;
+    margin-top:1rem;
+    
+}
+
+.newDiv .tick{
+    position:absolute ;
+    right:4rem;
+    padding:5px;
+}
+.newDiv .can{
+    position:absolute ;
+    right:0;
+    padding:5px;
+
+    
+}
+.date{
+    margin-top:2rem;
+
+}
+.input{
+margin:2px 5px;
+    padding:10px;
+    border:0;
+    border-bottom:3px solid #eeeff2;
+    border-radius:5px;
+}
+
+.newDiv.strike {
+    text-decoration:line-through ;
+    color:red;
+}
+li{
+    list-style-type:none;
+    width:50%;
+    height:100%;
+}
+.completedTasks{
+width:100%;
+height:100%;
+background-color:coral;
+display:grid;
+    
+}
+.uncompTasks{
+width:100%;
+height:100%;
+background-color:coral;
+display:grid;
+    
+}
+
+
+.result {
+    display:none;
+    
+}
+.delet{
+    display:none;
+}
+.delet.tasks{
+    display:block;
+}
+.list button{
+    border:0;
+    border-radius:5px;
+    background-color:#eeefff;
+    padding: 10px !important;
+}
+.list li{
+    padding:5px;
+    font-size:17px;
+    overflow-wrap:break-word;
+    margin-top:5px;
+}
+
+
